@@ -1,0 +1,11 @@
+@model CP3.MVC.Application.Dtos.BarcoDto
+
+<h2>Detalhes do Barco</h2>
+<div>
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Nome:</strong> @Model.Nome</p>
+    <p><strong>Modelo:</strong> @Model.Modelo</p>
+    <p><strong>Ano:</strong> @Model.Ano</p>
+    <p><strong>Tamanho:</strong> @Model.Tamanho</p>
+</div>
+<a href="@Url.Action("Index", "Barco")" class="btn btn-secondary">Voltar</a>
